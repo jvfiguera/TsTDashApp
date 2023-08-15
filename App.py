@@ -326,7 +326,7 @@ offcanvas = html.Div(
                         children=[
                             dbc.Button(html.I( className='fa-solid fa-bars') , color="primary", id="open-offcanvas", n_clicks=0, className="me-1")
                             #,html.I(className="fa-brands fa-free-code-camp")
-                            ,html.Img(src=app.get_asset_url(path='images/telefonica-img.png'), alt='img-telef') #"Portal de Ciencia de Datos"
+                            #,html.Img(src=app.get_asset_url(path='images/telefonica-img.png'), alt='img-telef') #"Portal de Ciencia de Datos"
                                 ]
                             ,className='c-main-div-title'
                             )
@@ -344,8 +344,8 @@ offcanvas = html.Div(
                     ,className='c-first-row-header'
                    )
             ,dbc.Offcanvas( children=[
-                                html.H1('Portal de Ciencia de Datos', className='c-H1-offcanvas-title')
-                                ,html.P("Prototipo de dashboard o portal de ciencia de datos, diseñado solo con fines didacticos para mostrar la versatilidad de las librerias dash & plotly para el estudio y analísis de los datos "
+                                #html.H1('Portal de Ciencia de Datos', className='c-H1-offcanvas-title')
+                                html.P("Prototipo de dashboard o portal de ciencia de datos, diseñado solo con fines didacticos para mostrar la versatilidad de las librerias dash & plotly para el estudio y analísis de los datos "
                                         , style={"text-align": "justify"}
                                         )
                                 ,html.Hr(id='id-line')
@@ -359,10 +359,10 @@ offcanvas = html.Div(
                                         ,vertical=True
                                         ,pills=True
                                         )
-
                                 ]
             ,id="offcanvas"
-            ,title=html.Img(src=app.get_asset_url(path='images/telefonica-img.png'), alt='img-telef') #"Portal de Ciencia de Datos"
+            #,title=html.Img(src=app.get_asset_url(path='images/telefonica-img.png'), alt='img-telef') #"Portal de Ciencia de Datos"
+            ,title=html.H1(html.I(html.Span('  Portal de Ciencia de Datos', className='c-H1-offcanvas-title'),className="fa-brands fa-free-code-camp"), className='c-H1-offcanvas-title')
             ,is_open=False
             ,className='text-bg-dark'
                         )

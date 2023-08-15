@@ -1,0 +1,137 @@
+.c-first-row-header {
+    height: 6rem;
+    border-color: red;
+    width: auto;
+}
+
+.me-1{
+  border-radius: 40%;
+}
+.c-H1-offcanvas-title{
+font-size: 1.5Rem;
+text-align: center;
+font-family: fantasy;
+}
+
+.c-main-div-title{
+  width: 100%;
+  position: relative;
+  left: 1%;
+  top: 5%;
+}
+
+.c-main-div2-title{
+  position: relative;
+  left: 1%;
+  top: 5%;
+  text-align: -webkit-left;
+  font-family: "Lilita One";
+}
+
+.c-border-graph{
+  padding: 0 1%;
+}
+
+.c-main-box-graph{
+  display: flex;
+  border: 0.1px solid grey;
+  padding :1%;
+}
+
+.c-main-box-graph_pag1{
+  border: 0.1px solid grey;
+}
+
+.menu {
+    position: relative;
+        left: 1%;
+    height: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 24px;
+    margin: 1% 0 2% 0;
+    background-color: #3A4750;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+}
+/*#FFFFFF;*/
+.Select-control {
+    width: 256px;
+    height: 48px;
+    color : #FFFFFF;
+}
+
+.c-main-div-title{
+  width: 100%;
+  position: relative;
+  left: 1%;
+  top: 5%;
+}
+
+.c-dropdown-states{
+    width: 20%;
+        }
+#id-dash-tbl-states{
+    font-size: 14px;
+}
+
+.c-kpi-h1-title{
+  font-size: 1rem;
+  text-align: center;
+  font-weight: lighter;
+}
+/*
+.c-top-indicators{
+  background-color: red;
+  border: double;
+  border-color: red;
+}
+*/
+.dash-table-container{
+  width: fit-content;
+}
+#id-line{
+  border-width: 5px;
+  border-style: none;
+  border-color: #353D40;
+  width: 100%;
+  border-top-style:double;
+  height:0;
+
+}
+
+#id-copyright{
+    #background: #D4D9DD;
+    #border-top: solid 1px #b5bec3;
+    #box-shadow: inset 0px 1px 0px 0px #e0e4e7;
+    text-align: center;
+    padding: 45px 0 80px 0;
+    color: #8d9ca3;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5);
+}
+
+.fa-free-code-camp{
+font-size: 3rem;
+}
+
+@media screen and (max-width:480px) {
+  .c-h1-title-dash{
+    font-size: 1rem;
+                }
+}
+
+@media screen and (min-width:480px) and (max-width:780px){
+  .c-h1-title-dash{
+    font-size: 2rem;
+                  }
+
+}
+
+@media screen and (min-width:780px) and (max-width:1300px){
+    .c-h1-title-dash{
+      font-size: 2rem;
+                    }
+
+    .c-main-box-graph_pag1{
+              display: inline;
+                    }
+}
